@@ -15,6 +15,7 @@
 		7606E91C1EE448C900B1A3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7606E91A1EE448C900B1A3CF /* LaunchScreen.storyboard */; };
 		7606E9271EE448C900B1A3CF /* colinProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7606E9261EE448C900B1A3CF /* colinProjectTests.swift */; };
 		7606E9321EE448C900B1A3CF /* colinProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7606E9311EE448C900B1A3CF /* colinProjectUITests.swift */; };
+		76E816C51EE59FF000724F08 /* CONetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E816C41EE59FF000724F08 /* CONetworkTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7606E92D1EE448C900B1A3CF /* colinProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colinProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7606E9311EE448C900B1A3CF /* colinProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colinProjectUITests.swift; sourceTree = "<group>"; };
 		7606E9331EE448C900B1A3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E816C41EE59FF000724F08 /* CONetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CONetworkTool.swift; sourceTree = "<group>"; };
 		81EA077EE7C0697F44135D79 /* Pods-colinProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colinProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-colinProject/Pods-colinProject.release.xcconfig"; sourceTree = "<group>"; };
 		DA3B72C3144990DD64222AD8 /* Pods-colinProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colinProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colinProject/Pods-colinProject.debug.xcconfig"; sourceTree = "<group>"; };
 		FF0935603BDEA287673A4514 /* Pods_colinProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colinProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 		7606E9101EE448C900B1A3CF /* colinProject */ = {
 			isa = PBXGroup;
 			children = (
+				76E816C01EE59F9400724F08 /* coTools */,
 				7606E9111EE448C900B1A3CF /* AppDelegate.swift */,
 				7606E9131EE448C900B1A3CF /* ViewController.swift */,
 				7606E9151EE448C900B1A3CF /* Main.storyboard */,
@@ -130,6 +133,22 @@
 				7606E9331EE448C900B1A3CF /* Info.plist */,
 			);
 			path = colinProjectUITests;
+			sourceTree = "<group>";
+		};
+		76E816C01EE59F9400724F08 /* coTools */ = {
+			isa = PBXGroup;
+			children = (
+				76E816C11EE59F9400724F08 /* coNetWorkTools */,
+			);
+			path = coTools;
+			sourceTree = "<group>";
+		};
+		76E816C11EE59F9400724F08 /* coNetWorkTools */ = {
+			isa = PBXGroup;
+			children = (
+				76E816C41EE59FF000724F08 /* CONetworkTool.swift */,
+			);
+			path = coNetWorkTools;
 			sourceTree = "<group>";
 		};
 		E068D0FC46FB4961E6AF3880 /* Frameworks */ = {
@@ -339,6 +358,7 @@
 			files = (
 				7606E9141EE448C900B1A3CF /* ViewController.swift in Sources */,
 				7606E9121EE448C900B1A3CF /* AppDelegate.swift in Sources */,
+				76E816C51EE59FF000724F08 /* CONetworkTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +613,7 @@
 				7606E9381EE448C900B1A3CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7606E9391EE448C900B1A3CF /* Build configuration list for PBXNativeTarget "colinProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +622,7 @@
 				7606E93B1EE448C900B1A3CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7606E93C1EE448C900B1A3CF /* Build configuration list for PBXNativeTarget "colinProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +631,7 @@
 				7606E93E1EE448C900B1A3CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
