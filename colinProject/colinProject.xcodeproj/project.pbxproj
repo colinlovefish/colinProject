@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35FCCFEB1D5C4E2FD1122EC9 /* Pods_colinProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0935603BDEA287673A4514 /* Pods_colinProject.framework */; };
 		7606E9121EE448C900B1A3CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7606E9111EE448C900B1A3CF /* AppDelegate.swift */; };
 		7606E9141EE448C900B1A3CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7606E9131EE448C900B1A3CF /* ViewController.swift */; };
 		7606E9171EE448C900B1A3CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7606E9151EE448C900B1A3CF /* Main.storyboard */; };
@@ -47,6 +48,9 @@
 		7606E92D1EE448C900B1A3CF /* colinProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colinProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7606E9311EE448C900B1A3CF /* colinProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colinProjectUITests.swift; sourceTree = "<group>"; };
 		7606E9331EE448C900B1A3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EA077EE7C0697F44135D79 /* Pods-colinProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colinProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-colinProject/Pods-colinProject.release.xcconfig"; sourceTree = "<group>"; };
+		DA3B72C3144990DD64222AD8 /* Pods-colinProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colinProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colinProject/Pods-colinProject.debug.xcconfig"; sourceTree = "<group>"; };
+		FF0935603BDEA287673A4514 /* Pods_colinProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colinProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35FCCFEB1D5C4E2FD1122EC9 /* Pods_colinProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				7606E9251EE448C900B1A3CF /* colinProjectTests */,
 				7606E9301EE448C900B1A3CF /* colinProjectUITests */,
 				7606E90F1EE448C900B1A3CF /* Products */,
+				E3E84BCADC075F81D64EDA97 /* Pods */,
+				E068D0FC46FB4961E6AF3880 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = colinProjectUITests;
 			sourceTree = "<group>";
 		};
+		E068D0FC46FB4961E6AF3880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF0935603BDEA287673A4514 /* Pods_colinProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3E84BCADC075F81D64EDA97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA3B72C3144990DD64222AD8 /* Pods-colinProject.debug.xcconfig */,
+				81EA077EE7C0697F44135D79 /* Pods-colinProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7606E9361EE448C900B1A3CF /* Build configuration list for PBXNativeTarget "colinProject" */;
 			buildPhases = (
+				142FF1370D86E178988B9B3F /* [CP] Check Pods Manifest.lock */,
 				7606E90A1EE448C900B1A3CF /* Sources */,
 				7606E90B1EE448C900B1A3CF /* Frameworks */,
 				7606E90C1EE448C900B1A3CF /* Resources */,
+				37F0198491BD343EE57436C0 /* [CP] Embed Pods Frameworks */,
+				645F9524D9077B0825C00D65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		142FF1370D86E178988B9B3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37F0198491BD343EE57436C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-colinProject/Pods-colinProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		645F9524D9077B0825C00D65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-colinProject/Pods-colinProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7606E90A1EE448C900B1A3CF /* Sources */ = {
@@ -415,6 +490,7 @@
 		};
 		7606E9371EE448C900B1A3CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3B72C3144990DD64222AD8 /* Pods-colinProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F63WK7Y6NG;
@@ -428,6 +504,7 @@
 		};
 		7606E9381EE448C900B1A3CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81EA077EE7C0697F44135D79 /* Pods-colinProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F63WK7Y6NG;
