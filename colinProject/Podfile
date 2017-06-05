@@ -3,7 +3,7 @@ use_frameworks!
 def pods
 
 pod 'Alamofire', '~> 4.4.0'
-
+pod 'RxSwift', '~> 3.3.0'
 end
 
 target 'colinProject' do
