@@ -1,0 +1,88 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AsyncDisplayKit (2.2):
+    - AsyncDisplayKit/PINRemoteImage (= 2.2)
+  - AsyncDisplayKit/Core (2.2)
+  - AsyncDisplayKit/PINRemoteImage (2.2):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (= 3.0.0-beta.8)
+    - PINRemoteImage/PINCache
+  - Charts (3.0.1):
+    - Charts/Core (= 3.0.1)
+  - Charts/Core (3.0.1)
+  - DZNEmptyDataSet (1.8.1)
+  - FileKit (4.0.0)
+  - Moya (8.0.2):
+    - Moya/Core (= 8.0.2)
+  - Moya/Core (8.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Nimble (6.0.1)
+  - Onboard (2.3.1)
+  - PermissionScope (1.1.1)
+  - PINCache (3.0.1-beta.4):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
+    - PINCache/Core (= 3.0.1-beta.4)
+  - PINCache/Arc-exception-safe (3.0.1-beta.4):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.4):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.8)
+  - PINRemoteImage/iOS (3.0.0-beta.8):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.8):
+    - PINCache (= 3.0.1-beta.4)
+    - PINRemoteImage/Core
+  - RandomKit (4.0.0):
+    - ShiftOperations
+  - ResponseDetective (1.0)
+  - Result (3.2.1)
+  - RxSwift (3.3.0)
+  - ShiftOperations (1.0.0)
+  - SwiftyJSON (3.1.4)
+  - Timepiece (1.1.0)
+  - Valet (2.4.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4.0)
+  - AsyncDisplayKit (~> 2.2)
+  - Charts (~> 3.0.1)
+  - DZNEmptyDataSet (~> 1.8.1)
+  - FileKit (~> 4.0.0)
+  - Moya (~> 8.0.2)
+  - Nimble (~> 6.0.1)
+  - Onboard (~> 2.3.1)
+  - PermissionScope (~> 1.1.1)
+  - RandomKit (~> 4.0.0)
+  - ResponseDetective (~> 1.0)
+  - RxSwift (~> 3.3.0)
+  - SwiftyJSON (~> 3.1.4)
+  - Timepiece (~> 1.1.0)
+  - Valet (~> 2.4.0)
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AsyncDisplayKit: 1585f6cd0531ae9b30476f5912f577b73ebcb0e4
+  Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FileKit: 2589d0393b3bfdc599c2ba6e41419be6db4279e0
+  Moya: 47f61da5b634aa71f676431b64ee0f81e976296d
+  Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
+  Onboard: b6871f25ac753175b2ab9a362fb2feb26a81a311
+  PermissionScope: a30c16e015779ba27c97c124e7539e27b5829de2
+  PINCache: a89c8f609232afac77128557bd12c861844423d7
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: c4f9f16932840c597f32e69dd288e10e111a1929
+  RandomKit: 17c9dbb103cc8d8a86834a582ba99abd0b1c1806
+  ResponseDetective: ccdd99846c52290aecc6520aaa1e6c22fdf4998a
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+  RxSwift: 7d42e8bc91faa4c218292400646c482f3402774a
+  ShiftOperations: 0c77c06851e7976c2665d601b46af123dbffeade
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Timepiece: 4190a7bc5ae1c05c87531fd75b14e17d2a017902
+  Valet: e4cbde64b8cbbad4d6610fc10d4473502ba1548e
+
+PODFILE CHECKSUM: 620515d139c0adbb1ae5be62c183c44a38693c3c
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,26 @@
+platform :ios,'8.0'
+use_frameworks!
+def pods
+
+pod 'Alamofire', '~> 4.4.0'
+pod 'RxSwift', '~> 3.3.0'
+pod 'Moya', '~> 8.0.2'
+pod 'SwiftyJSON', '~> 3.1.4'
+pod 'Valet', '~> 2.4.0'
+pod 'AsyncDisplayKit', '~> 2.2'
+pod 'DZNEmptyDataSet', '~> 1.8.1'
+pod 'PermissionScope', '~> 1.1.1'
+pod 'FileKit', '~> 4.0.0'
+pod 'Charts', '~> 3.0.1'
+pod 'RandomKit', '~> 4.0.0'
+pod 'ResponseDetective', '~> 1.0'
+pod 'Onboard', '~> 2.3.1'
+pod 'Nimble', '~> 6.0.1'
+pod 'Timepiece', '~> 1.1.0'
+
+
+end
+
+target 'swiftDemo' do
+  pods
+end
