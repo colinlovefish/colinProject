@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Apollo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>AsyncDisplayKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,12 +24,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Chester.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>DZNEmptyDataSet.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>FileKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GraphQLicious.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -84,6 +99,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RxCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>RxSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -117,7 +137,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>10C7DA687A5008C5CFB281A6B079FFCE</key>
+		<key>0B8B994D560A8983571ACB30139E0384</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -127,12 +147,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2D567F264DD172B97371BB86C095A907</key>
+		<key>1D940E6FD44A9626CD79034927E59F71</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3C3B83DE120626717367D2F0CB4E6683</key>
+		<key>33EC273BE6EC2E14B02F21FB8AE2EE91</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -147,12 +167,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>577D2949AB3E3EEFF800FE27E958DCC7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6CF67C2D946DBDE1EDE1F9E9997E1245</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DCD0D6087D85AEF61789DCD559FC37E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>75484E9FC8379B0447FF84F736CC0E85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8290B261D30A8C5A36A55F1C5DC955DA</key>
+		<key>7B4B11E07BD929C8554955C6B5B67A6E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -167,17 +202,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A96F68A3F3A66927B15DB37A5B99E889</key>
+		<key>93A4CF14619B8D170F2B8C3CD03B5694</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AD3CD797F870C24A8F1D5021B15F681B</key>
+		<key>9700710054996FD23F20FED40FEFD03E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D164FA744BDCA42767E4D2854F7C4A52</key>
+		<key>9966CEC7F613DA193C4B1709E644287E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0CD55BBC81A27C80B69E577A4A7BCEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BCFA80DBF64DDF6AD6B0926BB8BCAFC4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -193,11 +238,6 @@
 			<true/>
 		</dict>
 		<key>D973DBB3FF803A3BAC3F870E70F87628</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E04FF03B0F6E16D4D15A779E6A315B7C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76B501191F11EB95001DC85D /* YHTestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B501181F11EB95001DC85D /* YHTestTableViewController.swift */; };
 		76E597F51EF4B0C300A96C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E597F41EF4B0C300A96C6E /* AppDelegate.swift */; };
 		76E597F71EF4B0C300A96C6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E597F61EF4B0C300A96C6E /* ViewController.swift */; };
 		76E597FA1EF4B0C300A96C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E597F81EF4B0C300A96C6E /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76B501181F11EB95001DC85D /* YHTestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHTestTableViewController.swift; sourceTree = "<group>"; };
 		76E597F11EF4B0C300A96C6E /* swiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E597F41EF4B0C300A96C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76E597F61EF4B0C300A96C6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76B501131F11EB6F001DC85D /* testTableView */ = {
+			isa = PBXGroup;
+			children = (
+				76B501141F11EB6F001DC85D /* model */,
+				76B501151F11EB6F001DC85D /* view */,
+				76B501161F11EB6F001DC85D /* viewController */,
+				76B501171F11EB6F001DC85D /* viewModel */,
+			);
+			path = testTableView;
+			sourceTree = "<group>";
+		};
+		76B501141F11EB6F001DC85D /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		76B501151F11EB6F001DC85D /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		76B501161F11EB6F001DC85D /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				76B501181F11EB95001DC85D /* YHTestTableViewController.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		76B501171F11EB6F001DC85D /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
 		76E597E81EF4B0C300A96C6E = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +146,7 @@
 		76E597F31EF4B0C300A96C6E /* swiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				76B501131F11EB6F001DC85D /* testTableView */,
 				76E597F41EF4B0C300A96C6E /* AppDelegate.swift */,
 				76E597F61EF4B0C300A96C6E /* ViewController.swift */,
 				76E597F81EF4B0C300A96C6E /* Main.storyboard */,
@@ -338,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76E597F71EF4B0C300A96C6E /* ViewController.swift in Sources */,
+				76B501191F11EB95001DC85D /* YHTestTableViewController.swift in Sources */,
 				76E597F51EF4B0C300A96C6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
