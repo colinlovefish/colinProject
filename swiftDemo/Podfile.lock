@@ -70,6 +70,33 @@ DEPENDENCIES:
   - Timepiece (~> 1.1.0)
   - Valet (~> 2.4.0)
 
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Apollo
+    - AsyncDisplayKit
+    - Charts
+    - Chester
+    - DZNEmptyDataSet
+    - FileKit
+    - GraphQLicious
+    - Moya
+    - Nimble
+    - Onboard
+    - PermissionScope
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - RandomKit
+    - ResponseDetective
+    - Result
+    - RxCocoa
+    - RxSwift
+    - ShiftOperations
+    - SwiftyJSON
+    - Timepiece
+    - Valet
+
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   Apollo: 124ddbbca48acca75fd5f9ec5045454cb410bb31
@@ -98,4 +125,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: c713711c0d35b37374964c94b3bb7a1ed9d4e1dd
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.9.3

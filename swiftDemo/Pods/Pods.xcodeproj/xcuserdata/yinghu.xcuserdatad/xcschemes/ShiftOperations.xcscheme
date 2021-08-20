@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '93A4CF14619B8D170F2B8C3CD03B5694'
-               BlueprintName = 'ShiftOperations'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'ShiftOperations.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7D9E27D1CA30361E0D2C4125EA6316F3"
+               BuildableName = "ShiftOperations.framework"
+               BlueprintName = "ShiftOperations"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

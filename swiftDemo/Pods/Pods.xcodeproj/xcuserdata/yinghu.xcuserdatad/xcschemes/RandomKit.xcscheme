@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9700710054996FD23F20FED40FEFD03E'
-               BlueprintName = 'RandomKit'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'RandomKit.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F2834775CFD950A36FA134007383DD24"
+               BuildableName = "RandomKit.framework"
+               BlueprintName = "RandomKit"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
